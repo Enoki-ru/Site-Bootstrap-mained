@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&family=Russo+One&display=swap');
+
+body{
+    min-height: 2000px;
+    min-width: 850px;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Russo One', sans-serif;
+}
+.toper{
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 50px;
+    overflow: hidden;
+    -webkit-box-shadow: 0px 5px 30px 1px rgba(0, 0, 0, 0.33);
+    -moz-box-shadow: 0px 5px 30px 1px rgba(0, 0, 0, 0.33);
+    box-shadow: 0px 5px 30px 1px rgba(0, 0, 0, 0.33);
+}
+.toper .row{
+    height: 50px;
+}
+.row div{
+    max-height: 50px;
+}
+.logo p{
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    cursor: pointer;
+}
+.my-alert{
+    position: fixed;
+    right: 0;
+    bottom: 20px;
+    max-width: 510px;
+
+}
+.col-8 p {
+    transition: color 0.5s ease-in;
+    cursor: pointer;
+}
+.col-8 p:hover{
+    color: aqua;
+}
+.col-2 p {
+    transition: color 0.5s ease-in;
+    cursor: pointer;
+}
+.col-2 p:hover{
+    color: aqua;
+}
+.mainer{
+    height: 2000px;
+    margin-top: 50px;
+}
+.state{
+    max-height: 500px;
+    width: 300px;
+}
+.state .top-state{
+    width: 100%;
+    height: 10%;
+}
